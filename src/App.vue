@@ -26,28 +26,39 @@ import { timeline } from "./timeline.js"
             <div class="w-3 h-3 bg-yellow-400 rounded-full mt-1"></div>
             <div>
               <b>Pendaftaran</b><br>
-              {{ timeline.pendaftaran.dateString }}
+              <div class="py-[2px] px-3 bg-white/30 text-shadow-lg rounded-lg inline-block mt-1">{{
+                timeline.pendaftaran.dateString }}
+              </div>
             </div>
           </div>
           <div class="flex items-start gap-3">
             <div class="w-3 h-3 bg-yellow-400 rounded-full mt-1"></div>
             <div>
               <b>Pengumpulan Karya</b><br>
-              {{ timeline.pengumpulanKarya.dateString }}
+              <div class="py-[2px] px-3 bg-white/30 text-shadow-lg rounded-lg inline-block mt-1">
+                {{ timeline.pengumpulanKarya.dateString }}
+              </div>
             </div>
           </div>
           <div class="flex items-start gap-3">
             <div class="w-3 h-3 bg-yellow-400 rounded-full mt-1"></div>
             <div>
               <b>Penilaian</b><br>
-              {{ timeline.penilaian.dateString }}
+              <div class="py-[2px] px-3 bg-white/30 text-shadow-lg rounded-lg inline-block mt-1">
+                {{ timeline.penilaian.dateString }}
+              </div>
             </div>
           </div>
           <div class="flex items-start gap-3">
             <div class="w-3 h-3 bg-yellow-400 rounded-full mt-1"></div>
             <div>
               <b>Pengumuman & Penyerahan Juara</b><br>
-              {{ timeline.pengumumanJuara.dateString }}
+              <div class="py-[2px] px-3 bg-white/30 text-shadow-lg rounded-lg inline-block mt-1">
+                {{ timeline.pengumumanJuara.dateString }}
+              </div>
+              <br>
+              <div class="text-xs opacity-60 mt-1">Sekaligus Kegiatan Buka Bersama Pimpinan Cabang ✘ CBP KPP Trenggalek
+              </div>
             </div>
           </div>
         </div>
