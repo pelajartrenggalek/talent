@@ -3,34 +3,36 @@ import Juknis from '../layouts/Juknis.vue'
 
 const accordionData = {
     umum: {
-        label: "Ketentuan Umum",
+        label: "Kepesertaan",
         icon: "📜",
         content: [
-            "Lomba Kultum Ramadhan diselenggarakan oleh PC IPNU-IPPNU dalam rangka memperingati Harlah IPNU-IPPNU.",
-            "Peserta adalah kader IPNU-IPPNU tingkat PAC/PK se-cabang.",
-            "Setiap PAC/PK mengirimkan maksimal 2 peserta (1 IPNU & 1 IPPNU).",
-            "Peserta wajib berpakaian rapi, sopan, dan sesuai atribut organisasi.",
-            "Keputusan dewan juri bersifat mutlak dan tidak dapat diganggu gugat."
+            "Peserta adalah kader aktif IPNU-IPPNU tingkat PAC/PK se-Kabupaten Trenggalek, dibuktikan dengan SP/KTA yang masih berlaku.",
+            "Setiap PAC/PK mengirimkan maksimal 2 utusan (1 IPNU & 1 IPPNU).",
+            "Peserta wajib mengenakan pakaian rapi, sopan, dan beratribut IPNU/IPPNU.",
+            "Materi tidak boleh mengandung unsur SARA, politik praktis, maupun ujaran kebencian."
         ]
     },
     tema: {
-        label: "Tema Kultum",
+        label: "Tema Kultum (Pilih Salah Satu)",
         icon: "🕌",
         content: [
             "Spirit Fastabiqul Khairat di Bulan Ramadhan.",
             "Peran Pelajar NU dalam Syiar Agama.",
-            "Tema lain dapat dikembangkan oleh peserta selama masih relevan dengan nilai Ramadhan dan dakwah pelajar NU."
+            "*Tema lain dapat dikembangkan oleh peserta selama masih relevan dengan nilai Ramadhan dan dakwah pelajar NU."
         ]
     },
     teknis: {
         label: "Ketentuan Teknis",
         icon: "🎤",
         content: [
-            "Durasi kultum 7–10 menit.",
-            "Peserta dilarang membaca teks secara penuh (boleh membawa poin-poin).",
-            "Menggunakan bahasa Indonesia yang baik dan santun (boleh diselingi dalil Arab).",
-            "Materi wajib mencantumkan minimal 1 ayat Al-Qur’an dan 1 hadits.",
-            "Tidak diperkenankan mengandung unsur SARA, politik praktis, dan ujaran kebencian."
+            "Lomba dilaksanakan secara online (pengumpulan video).",
+            "Durasi kultum berkisar antara 7–10 menit.",
+            "Peserta dilarang membaca teks secara penuh (diperbolehkan membawa poin-poin/catatan kecil).",
+            "Penyampaian menggunakan Bahasa Indonesia yang baik dan benar.",
+            "Isi materi wajib mencantumkan minimal 1 ayat Al-Qur’an dan 1 hadits.",
+            "Pengambilan video dilakukan di Masjid/Mushola atau tempat umum yang representatif di daerah masing-masing.",
+            "Orientasi kamera landscape dengan resolusi minimal 720p dan ukuran file maksimal 1GB.",
+
         ]
     },
     penilaian: {
@@ -45,15 +47,12 @@ const accordionData = {
             "Kepercayaan Diri (10%)."
         ]
     },
-    pelaksanaan: {
-        label: "Teknis Pelaksanaan",
-        icon: "🎥",
+    hadiah: {
+        label: "Hadiah & Penghargaan",
+        icon: "🏆",
         content: [
-            "Pelaksanaan lomba tanggal 1–14 Maret 2026 secara online.",
-            "Waktu bersifat tentatif.",
-            "Tempat pengambilan video di Masjid/Mushola atau tempat umum yang menarik di daerah masing-masing.",
-            "Pengumpulan video melalui Google Drive (setiap kategori dibuatkan folder sendiri).",
-            "Sistem lomba langsung tanpa babak kualifikasi."
+            "Juara 1 mendapatkan E-Sertifikat dan Uang Pembinaan.",
+            "Seluruh peserta mendapatkan E-Sertifikat Partisipasi."
         ]
     }
 }
