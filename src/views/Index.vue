@@ -11,12 +11,12 @@ import { timeline } from "../timeline.js"
 
   <div class="grid grid-cols-2 gap-4 text-center -mt-2 mb-3">
     <RouterLink to="/juknis/kultum"
-      class="p-4 glass rounded-xl border border-white/30 hover:bg-white/20! transition-all">
+      class="p-4 rounded-xl border bg-yellow-400 text-green-900 border-white/30 hover:scale-103  transition-all">
       <span class="text-4xl mb-2 block">🎙️</span>
       <span class="font-medium text-sm">Juknis: <b>Kultum Ramadhan</b></span>
     </RouterLink>
     <RouterLink to="/juknis/single-song"
-      class="p-4 glass rounded-xl border border-white/30 hover:bg-white/20! transition-all">
+      class="p-4 rounded-xl border bg-yellow-400 text-green-900 border-white/30 hover:scale-103  transition-all">
       <span class="text-4xl mb-2 block">🎵</span>
       <span class="font-medium text-sm">Juknis: <b>Single Song</b></span>
     </RouterLink>
