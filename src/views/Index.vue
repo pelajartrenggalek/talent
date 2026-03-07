@@ -78,7 +78,7 @@ import { timeline } from "../timeline.js"
     <h2 class="font-semibold mb-3">
       ☎ Narahubung
     </h2>
-    <Button text="Rekanita Elina (WhatsApp Only)" url="https://wa.me/6281246327648" />
+    <Button text="Rekanita Elina (WhatsApp Only)" external url="https://wa.me/6281246327648" />
   </div>
 
 </template>
