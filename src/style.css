@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
 @import "tailwindcss";
+
+body {
+    font-family: 'Inter', sans-serif;
+}

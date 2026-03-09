@@ -6,9 +6,9 @@ const accordionData = {
         label: "Kepesertaan",
         icon: "📜",
         content: [
-            "Peserta adalah kader aktif IPNU-IPPNU tingkat PAC/PK se-Kabupaten Trenggalek, dibuktikan dengan SP/KTA yang masih berlaku.",
-            "Setiap PAC/PK mengirimkan maksimal 2 utusan (1 IPNU & 1 IPPNU).",
-            "Peserta wajib mengenakan pakaian rapi, sopan, dan beratribut IPNU/IPPNU.",
+            "Peserta adalah pengurus IPNU-IPPNU tingkat PAC/PK/PR se-Kabupaten Trenggalek, dibuktikan dengan Surat Pengesahan (SP).",
+            "Apabila peserta adalah pengurus PK/PR, maka pendaftaran harus tetap melalui PAC.",
+            "Peserta wajib mengenakan atribut atau identitas IPNU/IPPNU saat proses perekaman video.",
             "Materi tidak boleh mengandung unsur SARA, politik praktis, maupun ujaran kebencian."
         ]
     },
@@ -18,7 +18,6 @@ const accordionData = {
         content: [
             "Spirit Fastabiqul Khairat di Bulan Ramadhan.",
             "Peran Pelajar NU dalam Syiar Agama.",
-            "*Tema lain dapat dikembangkan oleh peserta selama masih relevan dengan nilai Ramadhan dan dakwah pelajar NU."
         ]
     },
     teknis: {
@@ -26,11 +25,10 @@ const accordionData = {
         icon: "🎤",
         content: [
             "Lomba dilaksanakan secara online (pengumpulan video).",
-            "Durasi kultum berkisar antara 7–10 menit.",
+            "Durasi kultum maksimal 8 menit.",
             "Peserta dilarang membaca teks secara penuh (diperbolehkan membawa poin-poin/catatan kecil).",
             "Penyampaian menggunakan Bahasa Indonesia yang baik dan benar.",
             "Isi materi wajib mencantumkan minimal 1 ayat Al-Qur’an dan 1 hadits.",
-            "Pengambilan video dilakukan di Masjid/Mushola atau tempat umum yang representatif di daerah masing-masing.",
             "Orientasi kamera landscape dengan resolusi minimal 720p dan ukuran file maksimal 1GB.",
 
         ]

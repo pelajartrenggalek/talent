@@ -6,8 +6,8 @@ const accordionData = {
         label: "Kepesertaan",
         icon: "📜",
         content: [
-            "Peserta adalah kader aktif IPNU-IPPNU tingkat PAC se-Kabupaten Trenggalek.",
-            "Peserta dibuktikan dengan SP yang masih berlaku.",
+            "Peserta adalah pengurus IPNU-IPPNU tingkat PAC/PK/PR se-Kabupaten Trenggalek, dibuktikan dengan Surat Pengesahan (SP).",
+            "Apabila peserta adalah pengurus PK/PR, maka pendaftaran harus tetap melalui PAC.",
             "Kategori lomba terdiri dari Vokal Solo IPNU dan Vokal Solo IPPNU.",
             "Peserta wajib mengenakan atribut atau identitas IPNU/IPPNU saat proses perekaman video."
         ]
