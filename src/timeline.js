@@ -9,7 +9,8 @@ export const timeline = {
     pendaftaran: {
         title: "Pendaftaran",
         dateString: "5 – 12 Maret",
-        date: dayjs("2026-03-12 23:59:59").tz("Asia/Jakarta").toDate(),
+        badge: "Perpanjangan: 13 Maret 17:00 WIB",
+        date: dayjs("2026-03-13 17:00:00").tz("Asia/Jakarta").toDate(),
         link: "https://docs.google.com/forms/d/e/1FAIpQLScXxXg9jE8p9RRlYOu2fPM2QCnDCPDDyOS5WrjjtSuZeejk5Q/viewform?usp=publish-editor"
     },
     penilaian: {

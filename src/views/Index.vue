@@ -33,9 +33,11 @@ import { timeline } from "../timeline.js"
         <div class="w-3 h-3 bg-yellow-400 rounded-full mt-1"></div>
         <div>
           <b>Pendaftaran dan Pengumpulan Karya</b><br>
-          <div class="py-[2px] px-3 bg-white/30 text-shadow-lg rounded-lg inline-block mt-1">{{
+          <div class="mr-1 py-[2px] px-3 bg-white/30 text-shadow-lg rounded-lg inline-block mt-1">{{
             timeline.pendaftaran.dateString }}
           </div>
+          <span class="py-[2px] px-3 bg-yellow-400 text-shadow-lg rounded-lg inline-block mt-1 font-bold text-black">{{
+            timeline.pendaftaran.badge }}</span>
         </div>
       </div>
       <div class="flex items-start gap-3">
