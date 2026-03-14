@@ -49,7 +49,7 @@ const accordionData = {
         label: "Hadiah & Penghargaan",
         icon: "🏆",
         content: [
-            "Juara 1 mendapatkan Sertifikat dan Uang Pembinaan.",
+            "Juara 1, 2, 3 dan Harapan mendapatkan Sertifikat dan Uang Pembinaan.",
             "Seluruh peserta mendapatkan E-Sertifikat Kepesertaan."
         ]
     }

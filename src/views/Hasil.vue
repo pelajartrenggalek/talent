@@ -1,9 +1,19 @@
+<script setup>
+import { juara } from "../juara.js"
+const colorCategory = {
+    "Kultum": "bg-yellow-400 text-black",
+    "Single Song Putra": "bg-blue-400 text-white",
+    "Single Song Putri": "bg-pink-400 text-white"
+}
+
+</script>
 <template>
     <div class="glass rounded-xl p-5">
         <h1 class="text-center text-2xl font-bold">Daftar Pemenang Karya</h1>
         <p class="text-center text-sm">Santri Got Talent Vol. 2 PC IPNU & IPPNU Trenggalek</p>
-        <div class="glass rounded-xl mt-5">
-            <table class="w-full text-left border-collapse">
+        <div class=" rounded-xl mt-5">
+
+            <table class="glass w-full text-left border-collapse max-sm:hidden">
                 <thead class="bg-white/20 text-white uppercase text-sm tracking-wider">
                     <tr>
                         <th class="px-6 py-4 font-semibold">Bidang</th>
@@ -13,65 +23,30 @@
                 </thead>
 
                 <tbody class="divide-y divide-white/10 text-white/90">
-                    <tr class="hover:bg-white/10 transition-colors duration-200">
-                        <td class="px-6 py-4">Kultum</td>
+                    <tr class="hover:bg-white/10 transition-colors duration-200" v-for="item in juara" :key="item.id">
+                        <td class="px-6 py-4">{{ item.bidang }}</td>
                         <td class="px-6 py-4">
-                            <p class="ml-2">Dian Septina Putri</p>
-                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">PAC IPPNU Durenan</p>
+                            <p class="ml-2">{{ item.nama }}</p>
+                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">{{ item.pac }}</p>
                         </td>
-                        <td class="px-6 py-4 text-right font-mono">Juara 1</td>
-                    </tr>
-                    <tr class="hover:bg-white/10 transition-colors duration-200">
-                        <td class="px-6 py-4">Kultum</td>
-                        <td class="px-6 py-4">
-                            <p class="ml-2">Eka Fibri Yuliani</p>
-                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">PAC IPPNU Durenan</p>
-                        </td>
-                        <td class="px-6 py-4 text-right font-mono">Juara 2</td>
-                    </tr>
-                    <tr class="hover:bg-white/10 transition-colors duration-200">
-                        <td class="px-6 py-4">Kultum</td>
-                        <td class="px-6 py-4">
-                            <p class="ml-2">Indah Ainus Sofa</p>
-                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">PAC IPPNU Pogalan</p>
-                        </td>
-                        <td class="px-6 py-4 text-right font-mono">Juara 3</td>
-                    </tr>
-                    <tr class="hover:bg-white/10 transition-colors duration-200">
-                        <td class="px-6 py-4">Kultum</td>
-                        <td class="px-6 py-4">
-                            <p class="ml-2">Inna Kholifatun Hidayah</p>
-                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">PAC IPPNU Trenggalek
-                            </p>
-                        </td>
-                        <td class="px-6 py-4 text-right font-mono">Juara Harapan</td>
-                    </tr>
-
-                    <tr class="hover:bg-white/10 transition-colors duration-200">
-                        <td class="px-6 py-4">
-                            <p>Single Song</p>
-                            <span class="text-xs px-2 py-1 bg-white/20 rounded-full inline-block">Putra</span>
-                        </td>
-                        <td class="px-6 py-4">
-                            <p class="ml-2">M. Ainur Roziqin</p>
-                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">PAC IPNU Durenan</p>
-                        </td>
-                        <td class="px-6 py-4 text-right font-mono">Juara 1</td>
-                    </tr>
-                    <tr class="hover:bg-white/10 transition-colors duration-200">
-                        <td class="px-6 py-4">
-                            <p>Single Song</p>
-                            <span class="text-xs px-2 py-1 bg-white/20 rounded-full inline-block">Putri</span>
-                        </td>
-                        <td class="px-6 py-4">
-                            <p class="ml-2">Ngindy Ngainil Muffida</p>
-                            <p class="text-xs px-2 py-1 bg-blue-500/90 rounded-full inline-block">PAC IPPNU
-                                Durenan</p>
-                        </td>
-                        <td class="px-6 py-4 text-right font-mono">Juara 1</td>
+                        <td class="px-6 py-4 text-right font-mono">{{ item.keterangan }}</td>
                     </tr>
                 </tbody>
             </table>
+
+            <div class="lg:hidden space-y-4">
+                <div class="glass rounded-xl p-4" v-for="item in juara" :key="item.id">
+                    <div class="flex justify-between items-center mb-2">
+                        <span :class="colorCategory[item.bidang]" class="text-xs font-semibold p-1 rounded">{{
+                            item.bidang
+                            }}</span>
+                        <span class="text-xs px-2 py-1 bg-blue-500/90 rounded-full">{{ item.keterangan }}</span>
+                    </div>
+                    <p class="text-lg font-medium">{{ item.nama }}</p>
+                    <p class="text-xs text-white">{{ item.pac }}</p>
+                </div>
+            </div>
+
         </div>
 
 
