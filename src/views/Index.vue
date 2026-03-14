@@ -22,9 +22,9 @@ import { timeline } from "../timeline.js"
     </RouterLink>
   </div>
 
-  <Time />
+  <!-- <Time /> -->
 
-  <div class="glass rounded-2xl p-6 mb-8 -mt-5">
+  <div class="glass rounded-2xl p-6 mb-8">
     <h2 class="text-center font-semibold mb-4">
       📅 Timeline Kegiatan
     </h2>
@@ -65,10 +65,10 @@ import { timeline } from "../timeline.js"
   </div>
 
   <div class="space-y-4 mb-10">
-    <PrimaryButton text="📝 Daftar & Pengumpulan Karya" :url="timeline.pendaftaran.link" external />
+    <Button disabled text="📝 Daftar & Pengumpulan Karya" :url="timeline.pendaftaran.link" external />
     <!-- <Button text="📄 Juknis Kultum Ramadhan" url="/juknis/kultum" />
     <Button text="📄 Juknis Single Song" url="/juknis/single-song" /> -->
-    <Button text="🏆 Hasil Penjurian Karya" url="/hasil" disabled class="mt-8" />
+    <PrimaryButton text="🏆 Hasil Penjurian Karya" url="/hasil" disabled />
     <Button text="🎨 Download Asset Harlah" disabled external url="#" />
   </div>
 

@@ -25,7 +25,7 @@ const accordionData = {
         icon: "🎤",
         content: [
             "Lomba dilaksanakan secara online (pengumpulan video).",
-            "Durasi kultum maksimal 8 menit.",
+            "Durasi kultum 5-10 menit.",
             "Peserta dilarang membaca teks secara penuh (diperbolehkan membawa poin-poin/catatan kecil).",
             "Penyampaian menggunakan Bahasa Indonesia yang baik dan benar.",
             "Isi materi wajib mencantumkan minimal 1 ayat Al-Qur’an dan 1 hadits.",
